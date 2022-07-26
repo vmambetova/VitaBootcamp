@@ -16,9 +16,8 @@ public class FindInArray {
         //TODO Find largest in an array
         int[] numbers = {1001, 241, 4424, 3415};
         int array = numbers[0];
-        // Find smallest in an array
         for (int i = 1; i < numbers.length; i++) {
-            if (numbers[i] < array) {
+            if (numbers[i] > array) {
                 array = numbers[i];
             }
         }

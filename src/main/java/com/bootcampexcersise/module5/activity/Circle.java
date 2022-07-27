@@ -4,8 +4,6 @@ public class Circle extends Shape{
 
     private double radius;
     private String color;
-    private double area;
-    private double perimeter;
     private static final double pi = 3.14;
     public Circle(){
         System.out.println("I am a circle");

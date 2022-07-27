@@ -4,8 +4,8 @@ public class AnimalActivity {
     public static void main(String arg[]) {
 
         //TODO: Use interfaces to declare identifiers instead of the actual classes
-        Animal cat = (Animal) new Cat();
-        Animal dog = (Animal) new Dog();
+        Animal cat = new Cat();
+        Animal dog = new Dog();
 
         Mammal mammal = new Mammal("Flexy");
 

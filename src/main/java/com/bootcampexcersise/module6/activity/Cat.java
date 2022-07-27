@@ -1,7 +1,7 @@
 package com.bootcampexcersise.module6.activity;
 
 //TODO: Cat class should implement Animal
-public class Cat  {
+public class Cat implements Animal {
 
 
     //TODO: Create method animalSound() and its implementation should print out string "Cat says: 'Meow Meow'!"

@@ -6,7 +6,7 @@ public class Circle extends Shape{
     private String color;
     private double area;
     private double perimeter;
-    private static final double p = 3.14;
+    private static final double pi = 3.14;
 
     //getter and setter for radius
     public double getRadius() {
@@ -18,12 +18,12 @@ public class Circle extends Shape{
 
     @Override
     public double calculateArea() {
-        return (p*(radius*radius));
+        return (pi*(radius*radius));
     }
 
     @Override
     public double calculatePerimeter() {
-        return p*radius;
+        return pi*radius;
     }
 
 }

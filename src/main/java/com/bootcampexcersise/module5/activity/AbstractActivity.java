@@ -14,6 +14,7 @@ public class AbstractActivity {
         // set and Print color of circle
         Circle circle = new Circle();
         circle.setColor("Blue");
+        System.out.println(circle.getColor());
         circle.setRadius(12);
         System.out.println(circle.calculatePerimeter());
         System.out.println(circle.calculateArea());

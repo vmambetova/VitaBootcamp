@@ -6,8 +6,6 @@ public abstract class Shape {
     public Shape() {
     }
 
-//getter and setter for area and perimeter
-
     //TODO:  Add abstract method calculateArea() and calculatePerimeter() with return type as double
     public abstract double calculateArea();
     public abstract double calculatePerimeter();

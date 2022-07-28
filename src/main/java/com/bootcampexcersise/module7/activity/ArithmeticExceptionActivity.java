@@ -3,9 +3,9 @@ package com.bootcampexcersise.module7.activity;
 public class ArithmeticExceptionActivity {
 
     public static void main(String[] args) {
-        int num1 = 10;
+      /*  int num1 = 10;
         int num2 = 0;
-        int num3 = 2;
+        int num3 = 2;*/
         ArithmeticExceptionActivity arithmeticExceptionActivity = new ArithmeticExceptionActivity();
         arithmeticExceptionActivity.catchMe(10, 0);
         arithmeticExceptionActivity.catchMe(10, 2);

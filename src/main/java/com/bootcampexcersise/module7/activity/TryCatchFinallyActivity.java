@@ -14,13 +14,13 @@ public class TryCatchFinallyActivity {
         for (int i = 0; i <= 10; i++) {
             System.out.println(arr[i]);
         }
-        } catch (IndexOutOfBoundsException e) {
-            System.out.println("Index out of bound");
+        } catch (IndexOutOfBoundsException IndexOutOfBoundsException) {
+            System.out.println(IndexOutOfBoundsException + "is out of bound");
         }
         finally {
             System.out.println("This should get printed even if there is an exception");
         }
-  
+
 
 
     }

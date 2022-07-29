@@ -2,7 +2,6 @@ package com.bootcampexcersise.module9.sample;
 
 // Complete Code
 import junit.framework.TestCase;
-
 public class ProductTests extends TestCase {
 
     private Product product;

@@ -14,7 +14,6 @@ public class ElectronicItemDetails {
         itemHashMap.put("Laptop", 1240.6);
         ElectronicItemDetails obj = new ElectronicItemDetails();
         System.out.println("The price of the TV is " + obj.returnPriceOfItem(itemHashMap, "TV"));
-
     }
 
     public Double returnPriceOfItem(Map<String, Double> map, String name){

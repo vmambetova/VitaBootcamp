@@ -17,10 +17,7 @@ public class AbstractActivity {
 
         Students student1 = new Students();
         student1.setSchoolName("RTU");
-        /*student1.setName("Ross");
-        student1.setAge(32);*/
         student1.introduce();
-
 
     }
 }
